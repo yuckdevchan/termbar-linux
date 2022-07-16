@@ -7,3 +7,4 @@ This 'distro' of termbar replaces OpenBSD utility calls in `/termbar-linux` with
 ## Dependencies
 - iw
 - Linux
+- Util-linux (Very likely already installed on linux system)
