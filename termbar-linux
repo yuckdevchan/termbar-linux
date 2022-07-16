@@ -70,7 +70,7 @@ network()
 
 my_name()
 {
-	YO=$(printf "タキシード")
+	YO=$(printf "ペンギン")
 }
 
 tput civis
