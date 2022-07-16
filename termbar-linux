@@ -38,13 +38,9 @@ bat()
 
 bat_status()
 {
-	STATUS=$(sysctl hw.sensors.acpiac0.indicator0 | grep -c On)
+	STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
-	if [ ${STATUS} -eq "1" ]; then
-		BAT_STATUS=$(echo Connected)
-	else
-		BAT_STATUS=$(echo ${redf}Disconnected${reset})
-	fi
+	echo $STATUS
 }
 
 mem()
