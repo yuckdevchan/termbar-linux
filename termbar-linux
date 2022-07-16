@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# タキシード
+
 ## Debug
 #set -x
 
@@ -23,13 +25,18 @@ desktop_id()
 	DESKTOP_ID=$(xprop -root 32c '\t$0' _NET_CURRENT_DESKTOP | cut -f 2)
 }
 
-cpu()
-{
-#	CPU_SPEED=$(sysctl hw.cpuspeed | cut -d "=" -f 2 | cut -d "." -f 1)
-	CPU_TEMP=$(cat /sys/class/thermal/thermal_zone6/temp | awk '{print substr($0, 0, length($0) -3)}')
-
-	CPU_SPEED=$(printf "%4s" $(sysctl hw.cpuspeed | cut -d "=" -f 2 | cut -d "." -f 1))
-}
+#cpu()
+#{
+#	CPU_TEMP=$(cat /sys/class/thermal/thermal_zone6/temp | awk '{print substr($0, 0, length($0) -3)}')
+#	
+#	CPU_SCALING=$(lscpu | grep "CPU(s) scaling MHz:" | awk '{print substr($4, 1, 2); }')
+#	
+#	CPU_MAX_CLOCK=$(lscpu | grep "CPU max MHz:" | awk '{print substr($4, 1, 4); }')
+#	
+#	declare -i x=100
+#	
+#	CPU_SPEED=$(expr $CPU_MAX_CLOCK / $x * $CPU_SCALING)
+#}
 
 bat()
 {
@@ -43,10 +50,11 @@ bat_status()
 	echo $STATUS
 }
 
-mem()
-{
-	MEM=$(top -n | grep Memory | awk {'print $6'})
-}
+#mem()
+#{
+#	#MEM=$(top -n | grep Memory | awk {'print $6'})
+#	
+#}
 
 wifi()
 {
@@ -55,8 +63,8 @@ wifi()
 
 network()
 {
-	WIFI=$(route -n show | grep default | awk '{print $8}')
-	IIP=$(ifconfig ${WIFI} | grep inet | awk '{print $2}')
+	#WIFI=$(route -n show | grep default | awk '{print $8}')
+	#IIP=$(ifconfig ${WIFI} | grep inet | awk '{print $2}')
 	PIP=$(dig +short myip.opendns.com @resolver1.opendns.com | awk {'printf $1'})
 }
 
@@ -70,8 +78,8 @@ tput civis
 while true; do
 	today
 	desktop_id
-	cpu
-	mem
+	#cpu
+	#mem
 	bat
 	bat_status
 	wifi
