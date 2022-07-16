@@ -1,5 +1,5 @@
 Forked from https://github.com/gonzalo-/termbar
-# termbar-linux - [ペンギン ~ ♡ ~ フグ]
+# termbar-linux - [ペンギン ~ ♡ ~ フグ & ゴンザロ]
 Linux port of termbar, an xterm status bar for cwm, or other wm (For OpenBSD version go to: https://github.com/gonzalo-/termbar).
 
 This 'distro' of termbar replaces OpenBSD utility calls in `/termbar-linux` with commands which will *mostly* work on Linux systems.
@@ -19,4 +19,4 @@ There are only a few dependencies as seen above and I've tried my best for these
 
 By 'Linux' I am referring to GNU / Linux and I'm not sure if this will work on something like Alpine Linux out of the box which doesn't use GNU or something like Artix Linux that doesn't use systemd.  
 
-ペンギン ~ ♡ ~ フグ = Penguin ~ ♡ ~ Pufferfish / Fugu
+ペンギン ~ ♡ ~ フグ & ゴンザロ = Penguin ~ ♡ ~ Pufferfish / Fugu & [Gonzalo](https://github.com/gonzalo)
