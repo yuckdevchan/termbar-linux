@@ -50,7 +50,7 @@ mem()
 
 wifi()
 {
-	SSID=$(ifconfig | grep join | sed -e 's/.*join\(.*\)chan.*/\1/')
+	SSID=$(iw dev | grep ssid | awk '{print $2}')
 }
 
 network()
