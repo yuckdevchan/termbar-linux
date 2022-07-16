@@ -10,7 +10,7 @@ This 'distro' of termbar replaces OpenBSD utility calls in `/termbar-linux` with
 - Util-linux (Very likely already installed on linux system)
 
 ## Project Status
-![Progress](https://progress-bar.dev/70/?title=feature%20set)
+![Progress](https://progress-bar.dev/70/?title=feature%20set)  
 Feature set is 70% complete.
 Some OpenBSD component calls have not yet been replaced with common Linux ones.
 Unfortunately, unlike OpenBSD having a base system with a cut and dry definition of what is included and not included with it, different GNU / Linux distributions can come with wildly different toolsets, programs and dependencies.  
