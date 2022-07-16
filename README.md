@@ -17,4 +17,6 @@ Unfortunately, unlike OpenBSD having a base system with a cut and dry definition
 
 There are only a few dependencies as seen above and I've tried my best for these to be tools that are often bundled / required for most distros but some of those tools will not always be installed by default.  
 
-By 'Linux' I am referring to GNU / Linux and I'm not sure if this will work on something like Alpine Linux out of the box which doesn't use GNU or something like Artix Linux that doesn't use systemd.
+By 'Linux' I am referring to GNU / Linux and I'm not sure if this will work on something like Alpine Linux out of the box which doesn't use GNU or something like Artix Linux that doesn't use systemd.  
+
+ペンギン ~ ♡ ~ フグ = Penguin ~ ♡ ~ Pufferfish / Fugu
