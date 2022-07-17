@@ -19,5 +19,5 @@ There are only a few dependencies as seen above and I've tried my best for these
 
 By 'Linux' I am referring to GNU / Linux and I'm not sure if this will work on something like Alpine Linux out of the box which doesn't use GNU or something like Artix Linux that doesn't use systemd.  
 
-ペンギン ~ ♡ ~ フグ & ゴンザロ = Penguin ~ ♡ ~ Pufferfish / Fugu & [Gonzalo](https://github.com/gonzalo-)
+ペンギン ~ ♡ ~ フグ & ゴンザロ = Penguin ~ ♡ ~ Pufferfish / Fugu & [Gonzalo](https://github.com/gonzalo-)  
 🐧~♡~🐡
