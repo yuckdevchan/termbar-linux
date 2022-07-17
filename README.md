@@ -21,4 +21,4 @@ By 'Linux' I am referring to GNU / Linux and I'm not sure if this will work on s
 
 ペンギン ~ ♡ ~ フグ & ゴンザロ = Penguin ~ ♡ ~ Pufferfish / Fugu & [Gonzalo](https://github.com/gonzalo-) 
   
-🐧~♡~🐡
+🐧~ ♡ ~🐡
